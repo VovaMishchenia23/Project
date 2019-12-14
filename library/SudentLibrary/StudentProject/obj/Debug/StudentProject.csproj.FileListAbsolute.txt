@@ -1,0 +1,6 @@
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\bin\Debug\StudentProject.dll
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\bin\Debug\StudentProject.pdb
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\obj\Debug\StudentProject.csprojAssemblyReference.cache
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\obj\Debug\StudentProject.csproj.CoreCompileInputs.cache
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\obj\Debug\StudentProject.dll
+C:\Users\Mishchenia Volodymyr\Desktop\library\SudentLibrary\StudentProject\obj\Debug\StudentProject.pdb
