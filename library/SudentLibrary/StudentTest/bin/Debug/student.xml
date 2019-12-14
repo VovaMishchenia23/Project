@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Age>20</Age>
+    <Name>Ivan</Name>
+    <Lastname>Ivanov</Lastname>
+    <Marks>
+      <Mark>
+        <Raiting>9</Raiting>
+        <Subject>C++</Subject>
+      </Mark>
+      <Mark>
+        <Raiting>4</Raiting>
+        <Subject>C#</Subject>
+      </Mark>
+    </Marks>
+  </Student>
+  <Student>
+    <Age>22</Age>
+    <Name>Petro</Name>
+    <Lastname>Petrenko</Lastname>
+    <Marks>
+      <Mark>
+        <Raiting>6</Raiting>
+        <Subject>C++</Subject>
+      </Mark>
+      <Mark>
+        <Raiting>11</Raiting>
+        <Subject>C#</Subject>
+      </Mark>
+    </Marks>
+  </Student>
+</ArrayOfStudent>

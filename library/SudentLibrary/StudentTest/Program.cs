@@ -12,27 +12,27 @@ namespace StudentTest
         static void Main(string[] args)
         {
             StudentServices services = new StudentServices();
-            //services.Add(new Student
-            //{
-            //    Name = "Ivan",
-            //    Age = 20,
-            //    Lastname = "Ivanov",
-            //});
-            //services.Add(new Student
-            //{
-            //    Name = "Petro",
-            //    Age = 22,
-            //    Lastname = "Petrenko",
-            //});
-            //Random rand = new Random();
-        
-            //foreach (Student item in services.Students)
-            //{
-            //    item.AddMark("C++", rand.Next(1, 12));
-            //    item.AddMark("C#", rand.Next(1, 12));
-            //}
-            //services.Save();
-            foreach(Student item in services.Students)
+            services.Add(new Student
+            {
+                Name = "Ivan",
+                Age = 20,
+                Lastname = "Ivanov",
+            });
+            services.Add(new Student
+            {
+                Name = "Petro",
+                Age = 22,
+                Lastname = "Petrenko",
+            });
+            Random rand = new Random();
+
+            foreach (Student item in services.Students)
+            {
+                item.AddMark("C++", rand.Next(1, 12));
+                item.AddMark("C#", rand.Next(1, 12));
+            }
+            services.Save();
+            foreach (Student item in services.Students)
             {
                 Console.WriteLine(item);
             }
